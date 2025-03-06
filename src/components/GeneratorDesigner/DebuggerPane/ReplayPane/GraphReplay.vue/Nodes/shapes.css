@@ -1,0 +1,8 @@
+/* https://css-shape.com/ */
+
+.hexagon {
+  height: 200px; /* adjust to control the size  */
+  aspect-ratio: 1 / cos(30deg);
+  clip-path: polygon(50% -50%, 100% 50%, 50% 150%, 0 50%);
+  background: #3b8686;
+}
